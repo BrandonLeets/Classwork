@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ## This function takes a matrix and solves the inverse using the determinant function programmed in R
-cacheSolve <- function(x, .	q.) {
+cacheSolve <- function(x, ...) {
   ##Take the inverse of the matrix
   ## check if there is already a inverse
   m <- x$getinverse()
